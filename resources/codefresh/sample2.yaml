@@ -5,6 +5,7 @@ metadata:
   labels:
     codefresh.io/entity: 'git-source'
     codefresh.io/internal: 'false'
+    codefresh.io/product: 'testproduct'
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
